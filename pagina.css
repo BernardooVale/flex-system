@@ -83,7 +83,6 @@ p {
 }
 
 .conteudo {
-
     display: flex;
     align-content: start;
     width: 100%;
@@ -250,7 +249,7 @@ p {
 }
 
 .coluna-align-items {
-    width: 30%;
+    width: 33%;
     height: 100%;
 }
 
@@ -282,4 +281,15 @@ p {
     height: 30px;
     justify-content: center;
     margin-top: 10%;
+}
+
+.linha-justify-items-center, .linha-justify-items-start, .linha-justify-items-end {
+    height: 33%;
+    align-content: center;
+}
+
+#justify-items-center, #justify-items-start, #justify-items-end{
+    align-content: center;
+    padding-top: 0px;
+    padding-bottom: 0px;
 }
