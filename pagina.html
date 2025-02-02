@@ -3,142 +3,427 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout com Sub-Colunas</title>
     <link rel="stylesheet" href="pagina.css">
-    <title>Document</title>
 </head>
-    <body>
-        <h1>Justify-Content</h1>
-        <div class="table">
-            <div class="c1">
-                <div class="box">
-                    <h2 class="titulo">Start</h2>
-                    <div class="linha">
-                        <div class="black-box"></div>
-                        <div class="black-box"></div>
-                        <div class="black-box"></div>
-                    </div>
-                    <div class="linha">
-                        <div class="black-box"></div>
-                        <div class="black-box"></div>
-                        <div class="black-box"></div>
-                    </div>
-                    <div class="linha">
-                        <div class="black-box"></div>
-                        <div class="black-box"></div>
-                        <div class="black-box"></div>
+<body>
+    <div class="container">
+        <div class="coluna-esquerda">
+            <div class="frase">Justify-Content</div>
+            <div class="sub-colunas">
+                <div class="sub-coluna">
+                    <p>Start</p>
+                    <div id="justify-content-start" class="conteudo">
+                        <div class="linha">
+                            <div class="coluna"></div>
+                            <div class="coluna"></div>
+                            <div class="coluna"></div>
+                        </div>
+                        <div class="linha">
+                            <div class="coluna"></div>
+                            <div class="coluna"></div>
+                            <div class="coluna"></div>
+                        </div>
+                        <div class="linha">
+                            <div class="coluna"></div>
+                            <div class="coluna"></div>
+                            <div class="coluna"></div>
+                        </div>
                     </div>
                 </div>
-                <div class="box">
-                    <h2 class="titulo">Start</h2>
-                    <div class="linha">
-                        <div class="black-box"></div>
-                        <div class="black-box"></div>
-                        <div class="black-box"></div>
+                <div class="sub-coluna">
+                    <p>Center</p>
+                    <div id="justify-content-center" class="conteudo">
+                        <div class="linha-justify-center">
+                            <div class="coluna"></div>
+                            <div class="coluna"></div>
+                            <div class="coluna"></div>
+                        </div>
+                        <div class="linha-justify-center">
+                            <div class="coluna"></div>
+                            <div class="coluna"></div>
+                            <div class="coluna"></div>
+                        </div>
+                        <div class="linha-justify-center">
+                            <div class="coluna"></div>
+                            <div class="coluna"></div>
+                            <div class="coluna"></div>
+                        </div>
                     </div>
-                    <div class="linha">
-                        <div class="black-box"></div>
-                        <div class="black-box"></div>
-                        <div class="black-box"></div>
+                </div>
+                <div class="sub-coluna">
+                    <p>End</p>
+                    <div id="justify-content-end" class="conteudo">
+                        <div class="linha-justify-end">
+                            <div class="coluna"></div>
+                            <div class="coluna"></div>
+                            <div class="coluna"></div>
+                        </div>
+                        <div class="linha-justify-end">
+                            <div class="coluna"></div>
+                            <div class="coluna"></div>
+                            <div class="coluna"></div>
+                        </div>
+                        <div class="linha-justify-end">
+                            <div class="coluna"></div>
+                            <div class="coluna"></div>
+                            <div class="coluna"></div>
+                        </div>
                     </div>
-                    <div class="linha">
-                        <div class="black-box"></div>
-                        <div class="black-box"></div>
-                        <div class="black-box"></div>
+                </div>
+                <div class="sub-coluna">
+                    <p>Space-around</p>
+                    <div id="justify-content-space-around" class="conteudo">
+                        <div class="linha-justify-space-around">
+                            <div class="coluna"></div>
+                            <div class="coluna"></div>
+                            <div class="coluna"></div>
+                        </div>
+                        <div class="linha-justify-space-around">
+                            <div class="coluna"></div>
+                            <div class="coluna"></div>
+                            <div class="coluna"></div>
+                        </div>
+                        <div class="linha-justify-space-around">
+                            <div class="coluna"></div>
+                            <div class="coluna"></div>
+                            <div class="coluna"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sub-coluna">
+                    <p>Space-between</p>
+                    <div id="justify-content-space-between" class="conteudo">
+                        <div class="linha-justify-space-between">
+                            <div class="coluna"></div>
+                            <div class="coluna"></div>
+                            <div class="coluna"></div>
+                        </div>
+                        <div class="linha-justify-space-between">
+                            <div class="coluna"></div>
+                            <div class="coluna"></div>
+                            <div class="coluna"></div>
+                        </div>
+                        <div class="linha-justify-space-between">
+                            <div class="coluna"></div>
+                            <div class="coluna"></div>
+                            <div class="coluna"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sub-coluna">
+                    <p>Space-evenly</p>
+                    <div id="justify-content-space-evenly" class="conteudo">
+                        <div class="linha-justify-space-evenly">
+                            <div class="coluna"></div>
+                            <div class="coluna"></div>
+                            <div class="coluna"></div>
+                        </div>
+                        <div class="linha-justify-space-evenly">
+                            <div class="coluna"></div>
+                            <div class="coluna"></div>
+                            <div class="coluna"></div>
+                        </div>
+                        <div class="linha-justify-space-evenly">
+                            <div class="coluna"></div>
+                            <div class="coluna"></div>
+                            <div class="coluna"></div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="c2">
-                <div class="box">
-                    <h2 class="titulo">Center</h2>
-                    <div id="justify-content-center">
-                        <div>
-                            <div class="linha">
-                                <div class="black-box"></div>
-                                <div class="black-box"></div>
-                                <div class="black-box"></div>
-                            </div>
-                            <div class="linha">
-                                <div class="black-box"></div>
-                                <div class="black-box"></div>
-                                <div class="black-box"></div>
-                            </div>
-                            <div class="linha">
-                                <div class="black-box"></div>
-                                <div class="black-box"></div>
-                                <div class="black-box"></div>
-                            </div>
+            <div class="frase">Align-Content</div>
+            <div class="sub-colunas">
+                <div class="sub-coluna">
+                    <p>Start</p>
+                    <div id="align-content-start" class="conteudo">
+                        <div class="linha">
+                            <div class="coluna"></div>
+                            <div class="coluna"></div>
+                            <div class="coluna"></div>
+                        </div>
+                        <div class="linha">
+                            <div class="coluna"></div>
+                            <div class="coluna"></div>
+                            <div class="coluna"></div>
+                        </div>
+                        <div class="linha">
+                            <div class="coluna"></div>
+                            <div class="coluna"></div>
+                            <div class="coluna"></div>
                         </div>
                     </div>
                 </div>
-                <div class="box">
-                    <h2 class="titulo">Center</h2>
-                    <div id="justify-content-center">
-                        <div>
-                            <div class="linha">
-                                <div class="black-box"></div>
-                                <div class="black-box"></div>
-                                <div class="black-box"></div>
-                            </div>
-                            <div class="linha">
-                                <div class="black-box"></div>
-                                <div class="black-box"></div>
-                                <div class="black-box"></div>
-                            </div>
-                            <div class="linha">
-                                <div class="black-box"></div>
-                                <div class="black-box"></div>
-                                <div class="black-box"></div>
-                            </div>
+                <div class="sub-coluna">
+                    <p>Center</p>
+                    <div id="align-content-center" class="conteudo">
+                        <div class="linha">
+                            <div class="coluna"></div>
+                            <div class="coluna"></div>
+                            <div class="coluna"></div>
+                        </div>
+                        <div class="linha">
+                            <div class="coluna"></div>
+                            <div class="coluna"></div>
+                            <div class="coluna"></div>
+                        </div>
+                        <div class="linha">
+                            <div class="coluna"></div>
+                            <div class="coluna"></div>
+                            <div class="coluna"></div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="c3">
-                <div class="box">
-                    <h2 class="titulo">End</h2>
-                    <div id="justify-content-end">
-                        <div>
-                            <div class="linha">
-                                <div class="black-box"></div>
-                                <div class="black-box"></div>
-                                <div class="black-box"></div>
-                            </div>
-                            <div class="linha">
-                                <div class="black-box"></div>
-                                <div class="black-box"></div>
-                                <div class="black-box"></div>
-                            </div>
-                            <div class="linha">
-                                <div class="black-box"></div>
-                                <div class="black-box"></div>
-                                <div class="black-box"></div>
-                            </div>
+                <div class="sub-coluna">
+                    <p>End</p>
+                    <div id="align-content-end" class="conteudo">
+                        <div class="linha">
+                            <div class="coluna"></div>
+                            <div class="coluna"></div>
+                            <div class="coluna"></div>
+                        </div>
+                        <div class="linha">
+                            <div class="coluna"></div>
+                            <div class="coluna"></div>
+                            <div class="coluna"></div>
+                        </div>
+                        <div class="linha">
+                            <div class="coluna"></div>
+                            <div class="coluna"></div>
+                            <div class="coluna"></div>
                         </div>
                     </div>
                 </div>
-                <div class="box">
-                    <h2 class="titulo">End</h2>
-                    <div id="justify-content-end">
-                        <div>
-                            <div class="linha">
-                                <div class="black-box"></div>
-                                <div class="black-box"></div>
-                                <div class="black-box"></div>
-                            </div>
-                            <div class="linha">
-                                <div class="black-box"></div>
-                                <div class="black-box"></div>
-                                <div class="black-box"></div>
-                            </div>
-                            <div class="linha">
-                                <div class="black-box"></div>
-                                <div class="black-box"></div>
-                                <div class="black-box"></div>
-                            </div>
+                <div class="sub-coluna">
+                    <p>Space-around</p>
+                    <div id="align-content-space-around" class="conteudo">
+                        <div class="linha">
+                            <div class="coluna"></div>
+                            <div class="coluna"></div>
+                            <div class="coluna"></div>
+                        </div>
+                        <div class="linha">
+                            <div class="coluna"></div>
+                            <div class="coluna"></div>
+                            <div class="coluna"></div>
+                        </div>
+                        <div class="linha">
+                            <div class="coluna"></div>
+                            <div class="coluna"></div>
+                            <div class="coluna"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sub-coluna">
+                    <p>Space-between</p>
+                    <div id="align-content-space-between" class="conteudo">
+                        <div class="linha">
+                            <div class="coluna"></div>
+                            <div class="coluna"></div>
+                            <div class="coluna"></div>
+                        </div>
+                        <div class="linha">
+                            <div class="coluna"></div>
+                            <div class="coluna"></div>
+                            <div class="coluna"></div>
+                        </div>
+                        <div class="linha">
+                            <div class="coluna"></div>
+                            <div class="coluna"></div>
+                            <div class="coluna"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sub-coluna">
+                    <p>Space-evenly</p>
+                    <div id="align-content-space-evenly" class="conteudo">
+                        <div class="linha">
+                            <div class="coluna"></div>
+                            <div class="coluna"></div>
+                            <div class="coluna"></div>
+                        </div>
+                        <div class="linha">
+                            <div class="coluna"></div>
+                            <div class="coluna"></div>
+                            <div class="coluna"></div>
+                        </div>
+                        <div class="linha">
+                            <div class="coluna"></div>
+                            <div class="coluna"></div>
+                            <div class="coluna"></div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </body>
+        <div class="coluna-direita">
+            <div class="frase">Justify-Items</div>
+            <div class="sub-colunas-direita">
+                <div class="sub-coluna-direita">
+                    <p>Stretch</p>
+                    <div id="justify-items-stretch" class="conteudo">
+                        <div class="linha-stretch">
+                            <div class="coluna-stretch"></div>
+                            <div class="coluna-stretch"></div>
+                            <div class="coluna-stretch"></div>
+                        </div>
+                        <div class="linha-stretch">
+                            <div class="coluna-stretch"></div>
+                            <div class="coluna-stretch"></div>
+                            <div class="coluna-stretch"></div>
+                        </div>
+                        <div class="linha-stretch">
+                            <div class="coluna-stretch"></div>
+                            <div class="coluna-stretch"></div>
+                            <div class="coluna-stretch"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sub-coluna-direita">
+                    <p>Center</p>
+                    <div id="justify-items-center" class="conteudo">
+                        <div class="linha-justify-items-center">
+                            <div class="coluna-justify-items"></div>
+                            <div class="coluna-justify-items"></div>
+                            <div class="coluna-justify-items"></div>
+                        </div>
+                        <div class="linha-justify-items-center">
+                            <div class="coluna-justify-items"></div>
+                            <div class="coluna-justify-items"></div>
+                            <div class="coluna-justify-items"></div>
+                        </div>
+                        <div class="linha-justify-items-center">
+                            <div class="coluna-justify-items"></div>
+                            <div class="coluna-justify-items"></div>
+                            <div class="coluna-justify-items"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sub-coluna-direita">
+                    <p>Start</p>
+                    <div id="justify-items-start" class="conteudo">
+                        <div class="linha-justify-items-start">
+                            <div class="coluna-justify-items-start"></div>
+                            <div class="coluna-justify-items-start"></div>
+                            <div class="coluna-justify-items-start"></div>
+                        </div>
+                        <div class="linha-justify-items-start">
+                            <div class="coluna-justify-items-start"></div>
+                            <div class="coluna-justify-items-start"></div>
+                            <div class="coluna-justify-items-start"></div>
+                        </div>
+                        <div class="linha-justify-items-start">
+                            <div class="coluna-justify-items-start"></div>
+                            <div class="coluna-justify-items-start"></div>
+                            <div class="coluna-justify-items-start"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sub-coluna-direita">
+                    <p>End</p>
+                    <div id="justify-items-end" class="conteudo">
+                        <div class="linha-justify-items-end">
+                            <div class="coluna-justify-items-end"></div>
+                            <div class="coluna-justify-items-end"></div>
+                            <div class="coluna-justify-items-end"></div>
+                        </div>
+                        <div class="linha-justify-items-end">
+                            <div class="coluna-justify-items-end"></div>
+                            <div class="coluna-justify-items-end"></div>
+                            <div class="coluna-justify-items-end"></div>
+                        </div>
+                        <div class="linha-justify-items-end">
+                            <div class="coluna-justify-items-end"></div>
+                            <div class="coluna-justify-items-end"></div>
+                            <div class="coluna-justify-items-end"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="frase">Align-Items</div>
+            <div class="sub-colunas-direita">
+                <div class="sub-coluna-direita">
+                    <p>Stretch</p>
+                    <div id="align-items-stretch" class="conteudo">
+                        <div class="linha-stretch">
+                            <div class="coluna-stretch"></div>
+                            <div class="coluna-stretch"></div>
+                            <div class="coluna-stretch"></div>
+                        </div>
+                        <div class="linha-stretch">
+                            <div class="coluna-stretch"></div>
+                            <div class="coluna-stretch"></div>
+                            <div class="coluna-stretch"></div>
+                        </div>
+                        <div class="linha-stretch">
+                            <div class="coluna-stretch"></div>
+                            <div class="coluna-stretch"></div>
+                            <div class="coluna-stretch"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sub-coluna-direita">
+                    <p>Center</p>
+                    <div id="align-items-center" class="conteudo">
+                        <div class="linha-align-items-center">
+                            <div class="coluna-align-items"></div>
+                            <div class="coluna-align-items"></div>
+                            <div class="coluna-align-items"></div>
+                        </div>
+                        <div class="linha-align-items-center">
+                            <div class="coluna-align-items"></div>
+                            <div class="coluna-align-items"></div>
+                            <div class="coluna-align-items"></div>
+                        </div>
+                        <div class="linha-align-items-center">
+                            <div class="coluna-align-items"></div>
+                            <div class="coluna-align-items"></div>
+                            <div class="coluna-align-items"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sub-coluna-direita">
+                    <p>Start</p>
+                    <div id="align-items-start" class="conteudo">
+                        <div class="linha-align-items-start">
+                            <div class="coluna-align-items"></div>
+                            <div class="coluna-align-items"></div>
+                            <div class="coluna-align-items"></div>
+                        </div>
+                        <div class="linha-align-items-start">
+                            <div class="coluna-align-items"></div>
+                            <div class="coluna-align-items"></div>
+                            <div class="coluna-align-items"></div>
+                        </div>
+                        <div class="linha-align-items-start">
+                            <div class="coluna-align-items"></div>
+                            <div class="coluna-align-items"></div>
+                            <div class="coluna-align-items"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sub-coluna-direita">
+                    <p>End</p>
+                    <div id="align-items-end" class="conteudo">
+                        <div class="linha-align-items-end">
+                            <div class="coluna-align-items"></div>
+                            <div class="coluna-align-items"></div>
+                            <div class="coluna-align-items"></div>
+                        </div>
+                        <div class="linha-align-items-end">
+                            <div class="coluna-align-items"></div>
+                            <div class="coluna-align-items"></div>
+                            <div class="coluna-align-items"></div>
+                        </div>
+                        <div class="linha-align-items-end">
+                            <div class="coluna-align-items"></div>
+                            <div class="coluna-align-items"></div>
+                            <div class="coluna-align-items"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
 </html>
